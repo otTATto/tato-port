@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WORKS / TATo ･ portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/6f8d6b3f84.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/color.css" rel="stylesheet">
+    <link href="./css/font.css" rel="stylesheet">
+    <link href="./css/anime.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script type="module" src="js/index.js"></script>
+
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="src/img/icon/tato_icon_for_web.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/icon/tato_icon_for_app.png">
+
+</head>
+
+<body class="" style="background-color: rgb(253, 251, 248);">
+    <!-- ヘッダーアイコン -->
+    <div class="text-center my-3 fadeIn">
+        <img onclick="move('index')" type="button" src="./src/img/tato_text_01.png" style="width: 50px;" class="img-fluid be-big" alt="...">
+    </div>
+
+    <!-- ナビ -->
+    <div class="row justify-content-center text-center f-Montserrat-lt text-secondary fadeIn">
+        <div class="col-4 col-sm-3 col-md-2 col-lg-1">
+            <div class="row row-cols-auto justify-content-center">
+                <div onclick="move('index')" type="button" class="be-big make-letters-distance">
+                    TOP
+                </div>
+            </div>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 col-lg-1 f-Montserrat-eb text-white">
+            <div class="row row-cols-auto justify-content-center">
+                <div type="button" class="bg-tato-dark-green px-2 br-5 be-big-click make-letters-distance">
+                    WORKS
+                </div>
+            </div>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 col-lg-1">
+            <div class="row row-cols-auto justify-content-center">
+                <div onclick="move('contact')" type="button" class="be-big make-letters-distance">
+                    CONTACT
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 本文 -->
+    <div class="container">
+
+        <div class="mt-4"></div>
+
+        <!-- 中央配置 -->
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+
+                <!-- 仮配置 -->
+                <div type="button" onclick="move('works/mizbering')" class="my-3 pt-4 pb-2 px-4 br-20 shadow-flip bg-white fadeLeft" style="animation-delay: .5s;">
+                    
+                    <div class="">
+                        <a href="#"><span class=" br-20">
+                            <img src="./src/img/works/thumbnail/mizbering2023_thumbnail.png" class="img-fluid br-20 fadeIn" alt="...">
+                        </span></a>
+                    </div>
+
+                    <div class="mt-2"></div>
+                    
+                    <div class="row">
+                        <div class="col text-start f-LineSeedJp-Rg" style="color: rgb(199, 87, 106);">
+                            <i class="fa-solid fa-palette"></i>
+                            デザイン
+                        </div>
+                        <div class="col text-end f-LineSeedJp-Th">
+                            2023/06/21
+                        </div>
+                    </div>
+
+                    <div class="mt-1"></div>
+
+                    <h3 class="f-LineSeedJp-Bd c-blue" style="font-size: 25px;">
+                        水辺で乾杯TONEUNGA<br>ポスター･パンフレット
+                    </h3>
+                    
+                </div>
+
+                <div type="button" onclick="move('works/fontguessr')" class="my-3 pt-4 pb-2 px-4 br-20 shadow-flip bg-white fadeLeft" style="animation-delay: .8s;">
+                    
+                    <div class="">
+                        <a href="#"><span class=" br-20">
+                            <img src="./src/img/works/thumbnail/fontguessr_thumbnail.png" class="img-fluid br-20 fadeIn" alt="...">
+                        </span></a>
+                    </div>
+
+                    <div class="mt-2"></div>
+                    
+                    <div class="row">
+                        <div class="col text-start f-LineSeedJp-Rg" style="color: rgb(137, 87, 199);">
+                            <i class="fa-solid fa-code"></i>
+                            フロントエンド
+                        </div>
+                        <div class="col text-end f-LineSeedJp-Th">
+                            2023/06/25
+                        </div>
+                    </div>
+
+                    <div class="mt-1"></div>
+
+                    <h3 class="f-LineSeedJp-Bd c-blue" style="font-size: 25px;">
+                        フォント推測ゲーム<br>『Font Guessr』
+                    </h3>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ここまで本文 -->
+
+    <!-- フッター -->
+    <footer class=" text-center fadeIn" style="margin-top: 40px; margin-bottom: 30px;">
+        <a href="https://x.com/0123tato" target="_blank" class="text-secondary f-M-PLUS-Rounded-1c-rg"
+            style="text-decoration: none;">
+            <small>
+                © たと・2023
+            </small>
+        </a>
+    </footer>
+
+</body>
+
+</html>

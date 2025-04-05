@@ -1,0 +1,60 @@
+[debug] [2024-01-06T12:41:23.198Z] ----------------------------------------------------------------------
+[debug] [2024-01-06T12:41:23.199Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\taish\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-06T12:41:23.200Z] CLI Version:   11.22.0
+[debug] [2024-01-06T12:41:23.200Z] Platform:      win32
+[debug] [2024-01-06T12:41:23.200Z] Node Version:  v18.14.0
+[debug] [2024-01-06T12:41:23.200Z] Time:          Sat Jan 06 2024 21:41:23 GMT+0900 (日本標準時)
+[debug] [2024-01-06T12:41:23.201Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-06T12:41:23.203Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-06T12:41:23.272Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-06T12:41:23.272Z] > authorizing via signed-in user (taishinjob@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\OneDrive\MySurface\ドキュメント\【WebSite】\【ポートフォリオサイト】
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-01-06T12:41:23.615Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-01-06T12:41:23.615Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-01-06T12:41:29.892Z] setProjectAccount(D:\OneDrive\MySurface\ドキュメント\【WebSite】\【ポートフォリオサイト】, taishinjob@gmail.com)
+[info] 
+[info] +  Using account: taishinjob@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-06T12:41:29.895Z] Using project from CLI flag: tato-port
+[debug] [2024-01-06T12:41:29.896Z] > refreshing access token with scopes: []
+[debug] [2024-01-06T12:41:29.897Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-06T12:41:29.897Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-06T12:41:30.046Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-06T12:41:30.046Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-06T12:41:30.049Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tato-port [none]
+[debug] [2024-01-06T12:41:30.363Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tato-port 200
+[debug] [2024-01-06T12:41:30.363Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tato-port {"projectId":"tato-port","projectNumber":"385625531781","displayName":"TATo-port","name":"projects/tato-port","resources":{"hostingSite":"tato-port"},"state":"ACTIVE","etag":"1_cb0c929a-7173-4d2f-a7b1-5634b802d80a"}
+[info] i  Using project tato-port (TATo-port) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

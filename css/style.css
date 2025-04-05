@@ -1,0 +1,65 @@
+/* 角丸 */
+    /* 5px */
+    .br-5 {
+        border-radius: 5px;
+    }
+    /* 10px */
+    .br-10 {
+        border-radius: 10px;
+    }
+    .br-t-10 {
+        border-radius: 10px 10px 0px 0px;
+    }
+    /* 20px */
+    .br-20 {
+        border-radius: 20px;
+    }
+    .br-t-20 {
+        border-radius: 20px 20px 0px 0px;
+    }
+    .br-b-20 {
+        border-radius: 0px 0px 20px 20px;
+    }
+    /* 30px */
+    .br-30 {
+        border-radius: 30px;
+    }
+    .br-t-30 {
+        border-radius: 30px 30px 0px 0px;
+    }
+    .br-b-30 {
+        border-radius: 0px 0px 30px 30px;
+    }
+
+/* ハイライト文字の色 */
+    ::selection {
+        background: #d9e3da;
+    }
+
+/* aタグのホバー */
+    a {
+        transition: color .4s;
+        text-decoration: none;
+    }
+    a:hover {
+        color: rgb(246, 158, 58);
+    }
+
+/* はじめの１文字目だけ大きくする */
+    .firstBig:first-letter {
+        font-size: 30px;
+        margin: 4px 6px 0px 0px;
+        line-height: 1;
+        float: left;
+        font-family: 'ZenMaruGothic-bd';
+        color: #709C90;
+    }
+
+/* 文字色のグラデーション */
+    .text-gradation {
+        display: inline-block;
+        background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
+        background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }

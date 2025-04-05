@@ -1,0 +1,164 @@
+/* font */
+
+    /* Montserrat */
+
+        /* Light */
+        @font-face {
+            font-family: 'Montserrat-Light';
+            src: url('../src/font/Montserrat/Montserrat-Light.ttf') format('truetype');
+        }
+        .f-Montserrat-lt {
+            font-family: 'Montserrat-Light';
+        }
+
+        /* Medium */
+        @font-face {
+            font-family: 'Montserrat-Medium';
+            src: url('../src/font/Montserrat/Montserrat-Medium.ttf') format('truetype');
+        }
+        .f-Montserrat-md {
+            font-family: 'Montserrat-Medium';
+        }
+
+        /* Medium Italic */
+        @font-face {
+            font-family: 'Montserrat-MediumItalic';
+            src: url('../src/font/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+        }
+        .f-Montserrat-md-i {
+            font-family: 'Montserrat-MediumItalic';
+        }
+
+        /* Extra Bold */
+        @font-face {
+            font-family: 'Montserrat-ExtraBold';
+            src: url('../src/font/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+        }
+        .f-Montserrat-eb {
+            font-family: 'Montserrat-ExtraBold';
+        }
+
+        /* Extra Bold Italic */
+        @font-face {
+            font-family: 'Montserrat-ExtraBoldItalic';
+            src: url('../src/font/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+        }
+        .f-Montserrat-eb-i {
+            font-family: 'Montserrat-ExtraBoldItalic';
+        }
+
+    /* LINE Seed JP */
+
+        /* Bold */
+        @font-face {
+            font-family: 'LINESeedJP-Bd';
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Bd.ttf') format('truetype');
+        }
+        .f-LineSeedJp-Bd {
+            font-family: 'LINESeedJP-Bd';
+        }
+
+        /* Extra Bold */
+        @font-face {
+            font-family: 'LINESeedJP-Eb';
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Eb.ttf') format('truetype');
+        }
+        .f-LineSeedJp-Eb {
+            font-family: 'LINESeedJP-Eb';
+        }
+
+        /* Regular */
+        @font-face {
+            font-family: 'LINESeedJP-Rg';
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Rg.ttf') format('truetype');
+        }
+        .f-LineSeedJp-Rg {
+            font-family: 'LINESeedJP-Rg';
+        }
+
+        /* Thin */
+        @font-face {
+            font-family: 'LINESeedJP-Th';
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Th.ttf') format('truetype');
+        }
+        .f-LineSeedJp-Th {
+            font-family: 'LINESeedJP-Th';
+        }
+
+    /* Dela Gothic One */
+
+        @font-face {
+            font-family: 'DelaGothicOne-rg';
+            src: url('../src/font/DelaGothicOne/DelaGothicOne-Regular.ttf') format('truetype');
+        }
+        .f-DelaGothicOne {
+            font-family: 'DelaGothicOne-rg';
+        }
+
+    /* M PLUS Rounded 1c */
+
+        /* Light */
+        @font-face {
+            font-family: 'M-PLUS-Rounded-1c-lt';
+            src: url('../src/font/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf') format('truetype');
+        }
+        .f-M-PLUS-Rounded-1c-lt {
+            font-family: 'M-PLUS-Rounded-1c-lt';
+        }
+
+        /* Regular */
+        @font-face {
+            font-family: 'M-PLUS-Rounded-1c-rg';
+            src: url('../src/font/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf') format('truetype');
+        }
+        .f-M-PLUS-Rounded-1c-rg {
+            font-family: 'M-PLUS-Rounded-1c-rg';
+        }
+
+    /* Zen Maru Gothic */
+
+        /* Light */
+        @font-face {
+            font-family: 'ZenMaruGothic-lt';
+            src: url('../src/font/Zen_Maru_Gothic/ZenMaruGothic-Light.ttf') format('truetype');
+        }
+        .f-ZenMaruGothic-lt {
+            font-family: 'ZenMaruGothic-lt';
+        }
+
+        /* Regular */
+        @font-face {
+            font-family: 'ZenMaruGothic-rg';
+            src: url('../src/font/Zen_Maru_Gothic/ZenMaruGothic-Regular.ttf') format('truetype');
+        }
+        .f-ZenMaruGothic-rg {
+            font-family: 'ZenMaruGothic-rg';
+        }
+
+        /* Medium */
+        @font-face {
+            font-family: 'ZenMaruGothic-md';
+            src: url('../src/font/Zen_Maru_Gothic/ZenMaruGothic-Medium.ttf') format('truetype');
+        }
+        .f-ZenMaruGothic-md {
+            font-family: 'ZenMaruGothic-md';
+        }
+
+        /* Bold */
+        @font-face {
+            font-family: 'ZenMaruGothic-bd';
+            src: url('../src/font/Zen_Maru_Gothic/ZenMaruGothic-Bold.ttf') format('truetype');
+        }
+        .f-ZenMaruGothic-bd {
+            font-family: 'ZenMaruGothic-bd';
+        }
+
+    /* Zen Antique */
+        
+        @font-face {
+            font-family: 'ZenAntique';
+            src: url('../src/font/ZenAntique/ZenAntique-Regular.ttf') format('truetype');
+        }
+        .f-ZenAntique {
+            font-family: 'ZenAntique';
+        }

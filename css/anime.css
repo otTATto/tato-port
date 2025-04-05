@@ -1,0 +1,117 @@
+/* アニメーションエフェクトに関するCSS */
+
+    /* クリック時に拡大 */
+    .be-big-click {
+        transition-duration: .3s;
+    }
+    .be-big-click:active {
+        transform: scale(1.1);
+    }
+
+    /* ホバー時に拡大 */
+    .be-big {
+        transition-duration: .3s;
+    }
+    .be-big:hover {
+        transform: scale(1.1);
+    }
+
+    /* ホバー時に文字間隔を開ける */
+    .make-letters-distance {
+        transition-duration: .2s;
+    }
+    .make-letters-distance:hover {
+        letter-spacing: 0.10em;
+    }
+
+    /* ホバー時に影を濃くする */
+    .shadow-deeper {
+        transition-duration: .3s;
+    }
+    .shadow-deeper:hover {
+        box-shadow: 
+            5px 5px 15px rgba(163, 163, 168, 0.5),
+            -5px -5px 15px rgba(248, 253, 255, 0.9),
+            inset 10px 10px 30px transparent,
+            inset -10px -10px 30px transparent;
+    }
+
+    /* ホバー時に影を反転させる */
+    .shadow-flip {
+        transition-duration: .3s;
+        box-shadow: 
+            5px 5px 15px rgba(163, 163, 168, 0.5),
+            -5px -5px 15px rgba(248, 253, 255, 0.9),
+            inset 10px 10px 30px transparent,
+            inset -10px -10px 30px transparent;
+    }
+    .shadow-flip:hover {
+        box-shadow:
+            10px 10px 30px transparent,
+            -10px -10px 30px transparent,
+            inset 5px 5px 15px rgba(111, 110, 120, 0.5),
+            inset -5px -5px 15px rgba(248, 253, 255, 0.9);
+    }
+
+    /*　ホバー時に画像の拡大　*/
+    .zoomIn img{
+        transform: scale(1);
+        transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+    }
+
+    .zoomIn a:hover img{/*hoverした時の変化*/
+        transform: scale(1.2);/*拡大の値を変更したい場合はこの数値を変更*/
+    }
+
+    /*　画像のマスク　*/
+    .mask{
+        display: block;
+        line-height: 0;/*行の高さを0にする*/
+        overflow: hidden;/*拡大してはみ出る要素を隠す*/
+    }
+
+    /* ホバー時に画像の拡大とぼかす */
+    /* .make-gauss img{
+        filter: blur(0);
+        transition: .3s ease-in-out;
+    }
+    .make-gauss:hover img{
+        filter: blur(10px);
+    } */
+
+    /* フェードイン */
+    .fadeIn {
+        animation-name: fadeInAnime;
+        animation-duration:2s;
+        animation-fill-mode:forwards;
+        opacity: 0;
+    }
+    
+    @keyframes fadeInAnime{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+    /* 左からフェードイン */
+    .fadeLeft{
+        animation-name:fadeLeftAnime;
+        animation-duration:1s;
+        animation-fill-mode:forwards;
+        opacity:0;
+    }
+    
+    @keyframes fadeLeftAnime{
+        from {
+        opacity: 0;
+        transform: translateX(-100px);
+        }
+    
+        to {
+        opacity: 1;
+        transform: translateX(0);
+        }
+    }

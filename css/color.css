@@ -1,0 +1,64 @@
+/* green */
+
+    /* tato green */
+        .c-tato-green {
+            color: #A8CAAB;
+        }
+        .bg-tato-green {
+            background-color: #A8CAAB;
+        }
+
+    /* tato dark green */
+        .c-tato-dark-green {
+            color: #709C90;
+        }
+        .bg-tato-dark-green {
+            background-color: #709C90;
+        }
+
+/* gray */
+    
+    .c-gray {
+        color: gray;
+    }
+
+/* white */
+
+    .bg-white {
+        background-color: rgb(253, 253, 255);
+    }
+
+/* blue */
+
+    /* normal blue */
+        .c-blue {
+            color: rgb(90, 130, 145);
+        }
+        .bg-blue {
+            background-color: rgb(90, 130, 145);
+        }
+
+    /* light blue */
+        .c-light-blue {
+            color: rgb(153, 176, 185);
+        }
+        .bg-light-blue {
+            background-color: rgb(153, 176, 185);
+        }
+
+/* red */
+
+    .c-red {
+        color: rgb(199, 71, 71);
+    }
+    .bg-red {
+        background-color: rgb(199, 71, 71);
+    }
+
+/* pink */
+    .c-pink {
+        color: rgb(175, 114, 124);
+    }
+    .bg-pink {
+        background-color: rgb(175, 114, 124);
+    }
